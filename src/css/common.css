@@ -16,3 +16,46 @@ img {
   display: block;
   max-width: 100%;
 }
+#datetime-picker {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+button[data-start] {
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+button[data-start]:hover {
+  background-color: #b30071;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.field {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.value {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+.label {
+  font-size: 16px;
+  color: #777;
+}
