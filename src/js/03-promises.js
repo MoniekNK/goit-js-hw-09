@@ -14,11 +14,6 @@ function createPromise(position, delay) {
 
 import Notiflix from 'notiflix';
 
-Notiflix.Notify.init({
-  position: 'right-top',
-  timeout: 2000,
-});
-
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.querySelector('.form');
 
